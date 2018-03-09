@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - La Porte, TX</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/La_Porte__TX/*http://weather.yahoo.com/forecast/USTX0719_f.html</link>
+<description>Yahoo! Weather for La Porte, TX</description>
+<language>en-us</language>
+<lastBuildDate>Sat, 02 Jan 2016 9:48 pm CST</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="La Porte" region="TX"   country="United States"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="48"   direction="340"   speed="3" />
+<yweather:atmosphere humidity="66"  visibility="10"  pressure="30.32"  rising="2" />
+<yweather:astronomy sunrise="7:16 am"   sunset="5:32 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for La Porte, TX at 9:48 pm CST</title>
+<geo:lat>29.68</geo:lat>
+<geo:long>-95.05</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/La_Porte__TX/*http://weather.yahoo.com/forecast/USTX0719_f.html</link>
+<pubDate>Sat, 02 Jan 2016 9:48 pm CST</pubDate>
+<yweather:condition  text="Cloudy"  code="26"  temp="48"  date="Sat, 02 Jan 2016 9:48 pm CST" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/26.gif"/><br />
+<b>Current Conditions:</b><br />
+Cloudy, 48 F<BR />
+<BR /><b>Forecast:</b><BR />
+Sat - Rain. High: 50 Low: 44<br />
+Sun - AM Clouds/PM Sun. High: 61 Low: 40<br />
+Mon - Sunny. High: 60 Low: 38<br />
+Tue - Mostly Cloudy. High: 55 Low: 45<br />
+Wed - Showers. High: 66 Low: 59<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/La_Porte__TX/*http://weather.yahoo.com/forecast/USTX0719_f.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sat" date="2 Jan 2016" low="44" high="50" text="Rain" code="12" />
+<yweather:forecast day="Sun" date="3 Jan 2016" low="40" high="61" text="AM Clouds/PM Sun" code="30" />
+<yweather:forecast day="Mon" date="4 Jan 2016" low="38" high="60" text="Sunny" code="32" />
+<yweather:forecast day="Tue" date="5 Jan 2016" low="45" high="55" text="Mostly Cloudy" code="28" />
+<yweather:forecast day="Wed" date="6 Jan 2016" low="59" high="66" text="Showers" code="11" />
+<guid isPermaLink="false">USTX0719_2016_01_06_7_00_CST</guid>
+</item>
+</channel>
+</rss>
+
+<!-- fan1632.sports.bf1.yahoo.com Sat Jan  2 20:17:58 PST 2016 -->

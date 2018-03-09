@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - La Porte, TX</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/La_Porte__TX/*http://weather.yahoo.com/forecast/USTX0719_f.html</link>
+<description>Yahoo! Weather for La Porte, TX</description>
+<language>en-us</language>
+<lastBuildDate>Thu, 12 Nov 2015 12:49 am CST</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="La Porte" region="TX"   country="United States"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="64"   direction="50"   speed="8" />
+<yweather:atmosphere humidity="94"  visibility="4"  pressure="30"  rising="1" />
+<yweather:astronomy sunrise="6:41 am"   sunset="5:26 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for La Porte, TX at 12:49 am CST</title>
+<geo:lat>29.68</geo:lat>
+<geo:long>-95.05</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/La_Porte__TX/*http://weather.yahoo.com/forecast/USTX0719_f.html</link>
+<pubDate>Thu, 12 Nov 2015 12:49 am CST</pubDate>
+<yweather:condition  text="Rain"  code="12"  temp="64"  date="Thu, 12 Nov 2015 12:49 am CST" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/12.gif"/><br />
+<b>Current Conditions:</b><br />
+Rain, 64 F<BR />
+<BR /><b>Forecast:</b><BR />
+Wed - Thundershowers. High: 80 Low: 62<br />
+Thu - Partly Cloudy. High: 69 Low: 56<br />
+Fri - Cloudy. High: 66 Low: 53<br />
+Sat - Partly Cloudy. High: 65 Low: 54<br />
+Sun - AM Showers. High: 68 Low: 63<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/La_Porte__TX/*http://weather.yahoo.com/forecast/USTX0719_f.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Wed" date="11 Nov 2015" low="62" high="80" text="Thundershowers" code="11" />
+<yweather:forecast day="Thu" date="12 Nov 2015" low="56" high="69" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Fri" date="13 Nov 2015" low="53" high="66" text="Cloudy" code="26" />
+<yweather:forecast day="Sat" date="14 Nov 2015" low="54" high="65" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Sun" date="15 Nov 2015" low="63" high="68" text="AM Showers" code="39" />
+<guid isPermaLink="false">USTX0719_2015_11_15_7_00_CST</guid>
+</item>
+</channel>
+</rss>
+
+<!-- fan1604.sports.bf1.yahoo.com Tue Nov 17 12:29:30 PST 2015 -->

@@ -1,0 +1,39 @@
+# Conky Digi-Conky#
+
+use_xft yes
+xftfont 123:size=3
+xftalpha 0.3
+update_interval 3
+total_run_times 0
+temperature_unit fahrenheit
+own_window yes
+own_window_type normal
+own_window_transparent no
+own_window_argb_visual yes
+own_window_colour 000000
+own_window_argb_value 153
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+text_buffer_size 512
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders no
+default_color white
+default_shade_color red
+default_outline_color green
+alignment bottom_middle
+gap_x 0
+gap_y 0
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+#override_utf8_locale yes
+use_spacer no
+minimum_size 0 0
+draw_graph_borders no
+short_units yes
+pad_percents  2
+TEXT
+ ${color FFA300}${font DejaVu Sans:pixelsize=12} ${offset 280} $nodename ${font DejaVu Sans:pixelsize=4}
+${voffset 5}${font DejaVu Sans:pixelsize=12}${color FFA300}HDD ${offset 9}$color${fs_free /run/media/hammer/Data/} / ${fs_size /run/media/hammer/Data/}b${offset 10}${color FFA300}| RAM ${offset 9}$color$mem ~ ${memmax}b${offset 12}${color FFA300}| CPU ${offset 9}$color${cpu cpu0}% ~${color} ${freq_g (1)} GHz ${color} ${color FFA300}Temp $color${hwmon 1 temp 1}°F  ${color FFA300}${voffset -22}${cpugraph cpu0 30,80  FF2100 FFA300 scale -l}  ${voffset -30}${font DejaVu Sans:pixelsize=4}
