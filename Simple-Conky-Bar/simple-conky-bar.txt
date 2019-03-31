@@ -1,8 +1,9 @@
-# Conky Simple-Bar for 1920x1080#
+# Conky Simple-Bar for 1920x1080 #
 
 use_xft yes
+color #FFFFFF
 xftfont 123:size=3
-xftalpha 0.3
+xftalpha 0.35
 update_interval 3
 total_run_times 0
 temperature_unit fahrenheit
@@ -11,11 +12,11 @@ own_window_type normal
 own_window_transparent no
 own_window_argb_visual yes
 own_window_colour 000000
-own_window_argb_value 153
+own_window_argb_value 175
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 text_buffer_size 512
 double_buffer yes
-draw_shades no
+draw_shades yes
 draw_outline no
 draw_borders no
 alignment bottom_middle
@@ -33,9 +34,8 @@ short_units yes
 pad_percents  2
 TEXT
 
-### ${image ~/Conky/Logo_Linux_Mint.png -p 170,40 -s 80x60 -f 86400} ###
 ${image hdd3.png -n -p -2,1 -s 48x48}
-${image ram4.png -n -p 138,6 -s 48x48}
-${image cpu4.png -n -p 289,2 -s 48x48}
-${image temp1.png -n -p 440,3 -s 42x42}
-${voffset 5}${font DejaVu Sans:pixelsize=12}    ${color FFA300} ${offset 19}$color${fs_free /run/media/hammer/Data/} / ${fs_size /run/media/hammer/Data/}b${offset 15}${color FFA300}       ${offset 13}$color$mem ~ ${memmax}b${offset 12}${color FFA300}     ${offset 18}$color${cpu cpu0}% ~${color} ${freq_g (1)} GHz ${color} ${color FFA300}  ${offset 32}$color${hwmon 1 temp 1}°F  ${color FFA300}${voffset -22}${cpugraph cpu0 30,80  008BFF 8BB4B6 scale -l}  ${voffset -30}${font DejaVu Sans:pixelsize=4}
+${image ram4.png -n -p 170,6 -s 48x48}
+${image cpu4.png -n -p 308,2 -s 48x48}
+${image temp1.png -n -p 460,3 -s 42x42}
+${voffset 5}${font Roboto Medium:pixelsize=14}   ${offset 28}${color #FFFFFF} ${fs_free /run/media/hammer/Data/} / ${fs_size /run/media/hammer/Data/}b${offset 87}${color #FFFFFF}$mem ~ ${memmax}b ${offset 62}${color #FFFFFF}${cpu cpu0}% ~${color #FFFFFF} ${freq_g (1)} GHz ${color #FFFFFF}${offset 59}${color #FFFFFF}${platform coretemp.0 temp 1}°F  ${voffset -22}${cpugraph cpu0 30,80  #008BFF #FFFFFF scale -l}${voffset -30}
