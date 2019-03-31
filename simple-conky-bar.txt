@@ -1,0 +1,41 @@
+# Conky Simple-Bar for 1920x1080 #
+
+use_xft yes
+color #FFFFFF
+xftfont 123:size=3
+xftalpha 0.35
+update_interval 3
+total_run_times 0
+temperature_unit fahrenheit
+own_window yes
+own_window_type normal
+own_window_transparent no
+own_window_argb_visual yes
+own_window_colour 000000
+own_window_argb_value 175
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+text_buffer_size 512
+double_buffer yes
+draw_shades yes
+draw_outline no
+draw_borders no
+alignment bottom_middle
+gap_x 0
+gap_y 0
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+#override_utf8_locale yes
+use_spacer no
+minimum_size 0 0
+draw_graph_borders no
+short_units yes
+pad_percents  2
+TEXT
+
+${image hdd3.png -n -p -2,1 -s 48x48}
+${image ram4.png -n -p 170,6 -s 48x48}
+${image cpu4.png -n -p 308,2 -s 48x48}
+${image temp1.png -n -p 460,3 -s 42x42}
+${voffset 5}${font Roboto Medium:pixelsize=14}   ${offset 28}${color #FFFFFF} ${fs_free /run/media/hammer/Data/} / ${fs_size /run/media/hammer/Data/}b${offset 87}${color #FFFFFF}$mem ~ ${memmax}b ${offset 62}${color #FFFFFF}${cpu cpu0}% ~${color #FFFFFF} ${freq_g (1)} GHz ${color #FFFFFF}${offset 59}${color #FFFFFF}${platform coretemp.0 temp 1}°F  ${voffset -22}${cpugraph cpu0 30,80  #008BFF #FFFFFF scale -l}${voffset -30}
